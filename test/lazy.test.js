@@ -1,4 +1,5 @@
-const Lazy = require("./Lazy");
+import { Lazy } from "../src/Lazy.js";
+import { describe, expect, test } from "@jest/globals";
 
 describe("Lazy evaluation", () => {
   test("applies a single function correctly", () => {
